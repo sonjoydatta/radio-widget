@@ -23,7 +23,7 @@ This is simple Radio widget (you can find PSD and PNG files attached).
 ## Quick start
 
 1. You'll need to have Node >= 14.18.1 and npm >= 6.14.15 on your machine
-2. Clone this repo using git clone https://github.com/sonjoydatta/radio-widget
+2. Clone this repo using `git clone https://github.com/sonjoydatta/radio-widget`
 3. Enter to the project directory: cd `radio-widget`
 4. Run `yarn install` in order to install dependencies.
 5. At this point you can run yarn start to see the app at http://localhost:3000
