@@ -26,9 +26,9 @@ This is simple Radio widget (you can find PSD and PNG files attached).
 2. Clone this repo using `git clone https://github.com/sonjoydatta/radio-widget`
 3. Enter to the project directory: cd `radio-widget`
 4. Run `yarn install` in order to install dependencies.
-5. At this point you can run yarn start to see the app at http://localhost:3000
+5. At this point you can run `yarn start` to see the app at http://localhost:3000
 
-## Technical breif
+## Technical brief
 
 1. As I don't know how you going to be using this widget so, I used `create-react-app` command to create this project. If this is a pluggable widget then we need to set up this project with a custom webpack/vite and build a file with `IIFE` format.
 2. Back, plus and minus icons have no activity.
