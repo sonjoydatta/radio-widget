@@ -19,3 +19,10 @@ This is simple Radio widget (you can find PSD and PNG files attached).
 8. Redux Saga or Redux could be used (not required).
 9. Transition/motion smoothness would be appreciated (not required).
 10. Pay attention to code quality, formatting, conventions etc.
+
+## Technical breif
+
+1. As I don't know how you going to be using this widget so, I used `create-react-app` command to create this project. If this is a pluggable widget then we need to set up this project with a custom webpack/vite and build a file with `IIFE` format.
+2. Back, plus and minus icons have no activity.
+3. To load with API data, call your API in the `App` component and pass the response to the child component, you don't need to change anything else.
+4. To chack test cases you can run `yarn test` command
