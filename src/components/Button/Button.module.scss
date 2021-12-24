@@ -1,0 +1,23 @@
+.Btn {
+  display: inline-block;
+  width: auto;
+  padding: 0.5rem 0;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+  background-color: transparent;
+  border: none;
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
+  img {
+    width: auto;
+    height: 1.5rem;
+  }
+}
